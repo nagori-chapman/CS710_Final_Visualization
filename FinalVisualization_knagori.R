@@ -82,7 +82,7 @@ vac.type <- inner_join(vaccinetype2, world_map, by = c("iso_code" = "isocode"))
 
 
 
-#colorPalette <- brewer.pal(1, 'Set2')
+colorPalette <- brewer.pal(1, 'Set2')
 
 #################### Moderna
 Moderna <- subset(vac.type, vaccines_factor2=="Moderna")
